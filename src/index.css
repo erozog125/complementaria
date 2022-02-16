@@ -1,0 +1,74 @@
+body {
+  background-color: #011a29;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 15px;
+  background: linear-gradient(-40deg, #01143d,#0c1f74,rgb(36, 79, 218));
+  box-shadow: 0 0 10px #3fabdd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;  
+}
+
+.card img {
+  object-fit: cover;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.card h1 {
+  width: 50%;
+  text-align: center;
+  color: #ffff;
+}
+
+.btn-disabled {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #382f37;
+  background-color: #1b2536;
+  color: #71787c;
+  cursor: pointer;
+}
+
+.btn-enabled {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #e443d1;
+  background-color: #9f14df;
+  color: #e6ecf0;
+  cursor: pointer;
+}
+
+.Active {
+  filter: opacity(50%);
+}
+
+.Inactive {
+  filter: opacity(1);
+}
